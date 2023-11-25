@@ -1,0 +1,31 @@
+
+
+
+body { 
+	font-family: arial sans-serif;
+ 	background-image: url("table.png");
+    background-size: cover;
+    text-align: center;
+    color: black;
+    font-weight:bold;
+
+ } 
+h1 {
+	color : yellow;
+}
+
+#message-el {
+	font-style:italic;
+}
+button {
+	color: orange;
+	width: 300px;
+	background: darkgoldenrod;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight: bold;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 4px;
+
+}
