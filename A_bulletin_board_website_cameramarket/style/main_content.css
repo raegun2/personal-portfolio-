@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #contents_wrapper {
 
     margin: 67px auto;
@@ -130,4 +131,138 @@ ul {
 .main_footer_li a{
     text-decoration: none;
     color: #bbbbbb;
+=======
+#contents_wrapper {
+
+    margin: 67px auto;
+    min-height: 500px;
+    height: 890px;
+    background-color: beige;
+    padding-bottom: 35px;
+    display: block;
+    max-width: 750px;
+
+}
+
+.heirarchial_select_clear_block {
+    width: 200px;
+    height: 100px;
+    padding-left: 0px;
+}
+#contents_create_ads {
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0 0 0px;
+    border-top: 1px solid;
+    border-color: #bbbbbb;
+}
+
+#edit-taxonomy-9-hierarchial-select-selects-0 {
+    font-size: 16px;
+    height: 27px;
+}
+
+#lable_el {
+    padding-left: 0px;
+}
+
+#title_input {
+    display: block;
+    padding: 5px 0 0 0px;
+    
+}
+.form_requried {
+    color: red;
+}
+#edit-body {
+    margin-top: 3px;    
+}
+#edit-body-wrapper {
+    margin-top: 3px;
+}
+#label_title {
+    display: block;    
+    
+}
+#input_textbox {
+    width: 70%;
+}
+#price_input {
+    padding: 5px 0 0 0px;  
+}
+#label_price {
+    display: block;
+}
+
+#save_preview_inputs {
+    
+    margin: 530px 0;
+    border-bottom: 1px solid #bbbbbb;
+    height: 50px;
+}
+#footer-bottom_contents {
+    
+    background-color: #2C2D32;
+    display: block;
+    height: 300px;
+    margin-top: -100px;
+    
+}
+
+
+#block_block_6 {
+    
+    margin: 0 auto;
+    background-color: none;
+    height: 250px;
+    
+    padding-top: 10px;
+    
+    width: 760px;
+
+}
+#block_block_6 ul {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    list-style: none;
+}
+
+#block_block_6 ul li {
+    float: left;
+    margin: 4px;
+    
+    
+}
+
+#block_block_6 ul ul a {
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: none;
+    
+}
+#block_block_6 ul ul li {
+    float: none;
+    
+}
+
+ul {
+    padding-inline-start: 0px;
+        
+}
+
+
+.main_footer_li {
+    padding-left: 90px;
+    
+}
+.main_footer_li a{
+    text-decoration: none;
+    color: #bbbbbb;
+>>>>>>> e6c91d4039c4f9ba74953cda9d832050ae1b5d22
 }
