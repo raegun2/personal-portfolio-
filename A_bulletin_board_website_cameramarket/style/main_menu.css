@@ -1,25 +1,22 @@
-.create_new_ads_wrap {
-    position: absolute;
-    display: block;
-    align-content: end;
-    
-}
+
 #create_new_ads {
     position: absolute;
     background-color: rgb(248, 239, 134);
     border: 1px;
     border-radius: 5px;
     z-index: 999;
-    margin-left: 900px;
-    margin-top: 3px;
+    margin-left: 150px;
+    margin-top: -10px;
     height: 70px;
     width: 260px;
     text-align: center;
-    font-size: 25px ;
+    font-size: 25px;
     font-weight: bold;
     padding-top: 5px;
     box-shadow: 2px 2px gray;
-
+    position: absolute;
+    
+    
 
 }
 #create_new_ads a{
@@ -34,38 +31,42 @@
 #container_menus {
     background: url(/A_bulletin_board_website_cameramarket/style/image/nav.png);
     height: 50px;
-    width: 1120px;
     position: relative;
-    display: block;
-    margin: -66px auto;
-
-}
-
-#main_menu_ul {
-    list-style: none;
+    display: flex;
+    left: 0px;
+    margin: -50px auto;
+    max-width: 1280px;
     
 }
+
+
+#main_menu_ul {
+    flex-shrink: 0;
+    list-style: none;
+    margin-top: 0px;
+    
+}
+
 
 #main_menu_ul a:hover {
     text-decoration: underline;
 }
 
 .main_menu_list {
-    
     float: left;
-    margin-left: 0px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 12px;
     padding-bottom: 14px;
     border-right: solid rgb(117, 102, 102) 1px;
-   
+    
 }
 
 #main_menu_ul a {
     color: #DCDCDC;
     font-size: 20px;
     text-decoration: none;
+    
 }
 
 
@@ -75,9 +76,8 @@
 #sub_menu {
     visibility: hidden;
     position: absolute;
-    top: 155px;
-    left: 8px;
-    width: auto;
+    top: 50px;
+    left: 0px;
     background: white;
     border: 1px solid #DCDCDC;
     padding: 5px;
@@ -118,9 +118,8 @@
 #sub_menu_camera {
     visibility: hidden;
     position: absolute;
-    top: 155px;
-    left: 202px;
-    width: auto;
+    top: 50px;
+    left: 193px;
     background: white;
     border: 1px solid #DCDCDC;
     padding: 5px;
@@ -154,13 +153,11 @@
 #sub_menu_lenses {
     visibility: hidden;
     position: absolute;
-    top: 155px;
-    left: 373px;
-    width: auto;
+    top: 50px;
+    left: 363px;
     background: white;
     border: 1px solid #DCDCDC;
     padding: 5px;
-    margin: 0;
     width: 147px;
     list-style: none;
 }
@@ -186,29 +183,3 @@
 }
 
 
-#content_heading {
-    background-color: #FFFBE5;
-    width: 1280px;
-    margin: 67px auto;
-}
-
-#content {
-    display: block;
-    background-color: rgb(250, 215, 225);
-    height: 300px;
-    width: 1280px;
-    margin: 0 auto;
-}
-
-#main_content_ads {
-    height: 1200px;
-    background-color: #DCDCDC;
-
-
-}
-.main_greeting {
-    background-color: bisque;
-    display: block;
-    margin: 100px auto;
-    width: 800px;
-}

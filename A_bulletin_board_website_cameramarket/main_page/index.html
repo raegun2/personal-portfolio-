@@ -15,8 +15,8 @@
         <header class="header">
         <div id="header_wrapper">                          
             <div class="left-section">
-                <a href="/" rel="home">
-                    <img class="home_logo" src="/A_bulletin_board_website_cameramarket/style/image/home_logo.png" alt="home" height="80" width="240">
+                <a href="/A_bulletin_board_website_cameramarket/main_page/" rel="home">
+                    <img class="home_logo" src="/A_bulletin_board_website_cameramarket/style/image/home_logo.png" alt="home" height="80" width="240" >
                 </a>    
             </div>
 
@@ -38,10 +38,13 @@
             <div class="right-section">
                 <div class = "membership-id">User Login:
                 </div>
-                <input type="text" class="id-box" placeholder= "Username">
-                <input type="text" class="password" placeholder="Password">
-                <button class="login-btn">Log In</button>
-                <button class="new-id-btn">Create Account</button>
+                <form action="result.html" name="login_form" method="get">
+                    <input type="text" class="id-box" placeholder= "Username">
+                    <input type="password" class="password" placeholder="Password">
+                    <input type="submit" value="Log In">
+                    <button class="new-id-btn" a href="/A_bulletin_board_website_cameramarket/users_control_panel/index.html">Create Account</button>
+                </form>
+
             </div>
         </div>
         </header>
@@ -124,29 +127,149 @@
                     <a href="menu_main/others" title="Others">Others</a>
                 </li>
             </ul>
+            <div >
+                <button id="create_new_ads">
+                    <a href="/A_bulletin_board_website_cameramarket/users_control_panel/">Create a New Ads</a>
+                </button>
+            </div>
         </div>
-        <div >
-            <button id="create_new_ads">
-                <a href="/A_bulletin_board_website_cameramarket/users_control_panel/">Create a New Ads</a>
-            </button>
-        </div>
+        
     <!--header ends here-->
     <!--content starts here-->
-    <div class="main_greeting">
-        <p style="font-size: 30px; color: red;">Australia Camera Market is a FREE service to list used camera gear</p>
-        
-        <p style="font-size: 18px">Advertisements will be seen by <strong>hundreds of daily visitors</strong>. Listings will automatically posted to Facebook & Twitter.</p>
-
-        <p style="font-size: 18px">Register now and start selling your <strong> used camera gear</strong>, it's absolutely <strong>FREE</strong>! No Final Fee, No Catch.</p></div>
-
-        <h1>Australia Camera Market</h1>
-        <div id="main_content_ads">
-            <div class="ad_1">
-
+    <div id="main_content_ads_wrapper">
+        <div id="main_content">
+            <div class="greeting_new_user">
+                <p style="font-size: 30px; letter-spacing: -1px; line-height: normal; margin: 10px 0; color: #cc0000">Australia Camera Market is a FREE service to list used camera gear</p>
+            <p style="font-size: 18px; line-height: 27px;"> Advertisements will be seen by <strong>hundreds of daily visitors</strong>. Listings will automatically posted to Facebook &amp; Twitter.</p>
+            <p style="font-size: 18px; line-height: 27px;"><a href="/A_bulletin_board_website_cameramarket/users_control_panel/index.html"> Register now</a> and start selling your <strong>used camera gear</strong>, it's absolutely <strong>FREE</strong>! No Final Fee, No Catch.</p>
             </div>
-            
+            <h1 class="title" id="page-title">Australia Camera Market</h1>
+            <div class="main_content_grid">
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/0.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/1.jpeg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/2.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/2.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/0.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY w </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/0.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY w </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/0.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/0.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/0.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+                <div id="ad_preview_" class="ad_preview_">
+                    <div class="photo_preview">
+                        <img class="thumbnails" src="/A_bulletin_board_website_cameramarket/style/image/0.jpg" alt="ad_title">
+                    </div>
+                    <div class="item_info">
+                        <p> A6700 BODY </p>
+                        <p> ----item details</p>
+                    </div>
+                    <div>
+                        <p>$1900</p>
+                    </div>
+                </div>
+
+            </div>    
         </div>
-        
+        <div class="sidebar"><br>sidebar</div>
+    </div>
         <!--content ends here-->
         <!--sidebars starts here-->
         <!--sidebars ends here-->
